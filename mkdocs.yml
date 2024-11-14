@@ -2,55 +2,20 @@ site_name: GeoExpress Map Viewer
 site_url: https://kan.com.ar/
 nav:
   - Home: index.md
-  - Navigation:
+  - Navegación:
       - navigation/interfaz.md
       - navigation/sidebar.md
       - navigation/cards.md
-  - Search:
+  - Busqueda:
       - search/search.md
       - search/geonode.md
-  - Tools:
+  - Herramientas:
       - tools/location.md
       - tools/zoom.md
       - tools/orientation.md
       - tools/3d-2d.md
       - tools/measuring.md
-  - Basemap: basemap/index.md
-
-nav_translations:
-  es:
-    - Inicio: index.md
-    - Navegación:
-        - navigation/interfaz.md
-        - navigation/sidebar.md
-        - navigation/cards.md
-    - Búsqueda:
-        - search/search.md
-        - search/geonode.md
-    - Herramientas:
-        - tools/location.md
-        - tools/zoom.md
-        - tools/orientation.md
-        - tools/3d-2d.md
-        - tools/measuring.md
-    - Mapa Base: basemap/index.md
-
-  pt:
-    - Início: index.md
-    - Navegação:
-        - navigation/interfaz.md
-        - navigation/sidebar.md
-        - navigation/cards.md
-    - Pesquisa:
-        - search/search.md
-        - search/geonode.md
-    - Ferramentas:
-        - tools/location.md
-        - tools/zoom.md
-        - tools/orientation.md
-        - tools/3d-2d.md
-        - tools/measuring.md
-    - Mapa Base: basemap/index.md
+  - basemap/index.md
 
 markdown_extensions:
   - admonition
@@ -104,6 +69,7 @@ extra:
       link: pt/
 
 repo_url: https://github.com/Kan-T-IT/geoexpress-map-viewer-documentation
+
 
 
   

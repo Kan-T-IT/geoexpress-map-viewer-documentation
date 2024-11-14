@@ -20,5 +20,9 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+<<<<<<< HEAD
       - run: pip install mkdocs-material mkdocs-static-i18n mkdocs-multilingual-plugin
+=======
+      - run: pip install mkdocs-material mkdocs-static-i18n
+>>>>>>> 47dc0217a955d96d1d0f1f4627613c7726a5ee54
       - run: mkdocs gh-deploy --force
