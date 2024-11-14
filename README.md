@@ -1,4 +1,4 @@
-# GEoexpress Visor - Documentation
+# GeoExpress Visor - Documentation
 
 
 ## Contributing to the Documentation
