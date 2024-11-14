@@ -21,8 +21,12 @@ jobs:
           restore-keys: |
             mkdocs-material-
 <<<<<<< HEAD
+<<<<<<< HEAD
       - run: pip install mkdocs-material mkdocs-static-i18n mkdocs-multilingual-plugin
 =======
       - run: pip install mkdocs-material mkdocs-static-i18n
 >>>>>>> 47dc0217a955d96d1d0f1f4627613c7726a5ee54
+=======
+      - run: pip install mkdocs-material mkdocs-static-i18n mkdocs-multilingual-plugin
+>>>>>>> 3c0c9386734db0a9147b60f25ffcf034361daefa
       - run: mkdocs gh-deploy --force
