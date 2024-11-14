@@ -1,56 +1,56 @@
 site_name: GeoExpress Map Viewer
 site_url: https://kan.com.ar/
 nav:
-  - en:
-      - Home: index.md
-      - Navigation:
-          - navigation/interfaz.md
-          - navigation/sidebar.md
-          - navigation/cards.md
-      - Search:
-          - search/search.md
-          - search/geonode.md
-      - Tools:
-          - tools/location.md
-          - tools/zoom.md
-          - tools/orientation.md
-          - tools/3d-2d.md
-          - tools/measuring.md
-      - Basemap: basemap/index.md
+  - Home: index.md
+  - Navigation:
+      - navigation/interfaz.md
+      - navigation/sidebar.md
+      - navigation/cards.md
+  - Search:
+      - search/search.md
+      - search/geonode.md
+  - Tools:
+      - tools/location.md
+      - tools/zoom.md
+      - tools/orientation.md
+      - tools/3d-2d.md
+      - tools/measuring.md
+  - Basemap: basemap/index.md
 
-  - es:
-      - Inicio: index.md
-      - Navegación:
-          - navigation/interfaz.md
-          - navigation/sidebar.md
-          - navigation/cards.md
-      - Búsqueda:
-          - search/search.md
-          - search/geonode.md
-      - Herramientas:
-          - tools/location.md
-          - tools/zoom.md
-          - tools/orientation.md
-          - tools/3d-2d.md
-          - tools/measuring.md
-      - Mapa Base: basemap/index.md
+nav_translations:
+  es:
+    - Inicio: index.md
+    - Navegación:
+        - navigation/interfaz.md
+        - navigation/sidebar.md
+        - navigation/cards.md
+    - Búsqueda:
+        - search/search.md
+        - search/geonode.md
+    - Herramientas:
+        - tools/location.md
+        - tools/zoom.md
+        - tools/orientation.md
+        - tools/3d-2d.md
+        - tools/measuring.md
+    - Mapa Base: basemap/index.md
 
-  - pt:
-      - Início: index.md
-      - Navegação:
-          - navigation/interfaz.md
-          - navigation/sidebar.md
-          - navigation/cards.md
-      - Pesquisa:
-          - search/search.md
-          - search/geonode.md
-      - Ferramentas:
-          - tools/location.md
-          - tools/zoom.md
-          - tools/orientation.md
-          - tools/3d-2d.md
-          - tools/measuring.md
-      - Mapa Base: basemap/index.md
+  pt:
+    - Início: index.md
+    - Navegação:
+        - navigation/interfaz.md
+        - navigation/sidebar.md
+        - navigation/cards.md
+    - Pesquisa:
+        - search/search.md
+        - search/geonode.md
+    - Ferramentas:
+        - tools/location.md
+        - tools/zoom.md
+        - tools/orientation.md
+        - tools/3d-2d.md
+        - tools/measuring.md
+    - Mapa Base: basemap/index.md
 
 markdown_extensions:
   - admonition
@@ -77,12 +77,12 @@ plugins:
   - i18n:
       docs_structure: folder
       languages:
-        - locale: es
-          default: true
-          name: Español
-          build: true
         - locale: en
+          default: true
           name: English
+          build: true
+        - locale: es
+          name: Español
           build: true
         - locale: pt
           name: Português
@@ -92,18 +92,17 @@ extra:
   homepage: https://kan.com.ar
   analytics:
     provider: google
-    property: G-CX629PT790
+    property: G-E7XJKS2PK3
   alternate:
-    - name: Español
-      lang: es
     - name: English
       lang: en
-      link: en/
+    - name: Español
+      lang: es
+      link: es/
     - name: Portuguese
       lang: pt
       link: pt/
 
 repo_url: https://github.com/Kan-T-IT/geoexpress-map-viewer-documentation
-
 
   
