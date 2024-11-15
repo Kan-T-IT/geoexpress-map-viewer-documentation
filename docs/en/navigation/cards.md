@@ -85,7 +85,7 @@ Clicking on the icon allows the analysis of the 3D object and the activation or 
 
 ![](../images/cards10.png)
 /// caption
-Objeto 3D
+3D object
 ///
 
 ## Layer Management
